@@ -1,0 +1,87 @@
+body 
+        {
+            background-color: rgb(154 191 219);
+
+        }
+
+        header 
+        {
+            background-color: rgb(16, 47, 65);
+            height: 100px;
+            display: flex;
+            padding-left: 20px;
+            align-items: center;
+        }
+
+        header>nav 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        header>nav>a
+        {
+            text-decoration: none;
+            color: white;
+            padding: 0 20px;
+            margin: 30px;
+        }
+
+        .fa,
+        .fas {
+            padding-right: 5px;
+        }
+
+        header>nav>a:hover 
+        {
+
+            text-shadow: 0 0 15px white;
+        }
+
+        body>#mainadd {
+            background-image: url(../images/AddImage.jpg);
+            height: 700px;
+        }
+
+        body>#mainadd>div {
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        body>#mainadd>div>pre {
+            font-family: Georgia, 'Times New Roman';
+            font-size: 20px;
+        }
+
+        body>#mainadd>div>a,.java>a 
+        {
+            text-decoration: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(16, 47, 65);
+        }
+
+        body>#mainadd>div>a:hover,.java>a:hover
+         {
+            background-color: white;
+            color: rgb(16, 47, 65);
+            border: 3px solid rgb(16, 47, 65);
+            box-shadow: 0 0 10px rgb(16, 47, 65);
+
+        }
+
+        @media(min-width:0px) and (max-width:1200px) {
+            header {
+                display: block;
+                padding: 10px 20px 20px 20px;
+                text-align: center;
+            }
+
+            header>nav>a {
+                padding: 0 5px;
+                margin: auto;
+            }
+        }
